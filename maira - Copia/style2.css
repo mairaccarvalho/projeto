@@ -1,0 +1,190 @@
+/* Resetando margens e padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais para o corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff6347; /* Tom de vermelho claro (como frutas) */
+    color: white;
+    padding: 20px 40px;
+}
+
+header .logo h1 {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive; /* Fonte descontraída para o logo */
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos da Seção Home (Banner) */
+.home {
+    background: url('images/banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    background-position: center center;
+}
+
+.home h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.home p {
+    font-size: 24px;
+}
+
+.home .btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.home .btn:hover {
+    background-color: #ff4500;
+}
+
+/* Estilos da Seção Sabores */
+.flavors {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f0f8ff; /* Cor suave de fundo */
+}
+
+.flavors h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+.flavors-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.flavor {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.flavor img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.flavor h3 {
+    font-size: 24px;
+    color: #ff6347;
+    margin-top: 15px;
+}
+
+.flavor p {
+    font-size: 16px;
+}
+
+/* Estilos da Seção Depoimentos */
+.testimonials {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+.testimonials-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: #ffebcd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.testimonial p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.testimonial h3 {
+    font-size: 22px;
+    color: #ff6347;
+}
+
+/* Estilos da Seção Contato */
+.contact {
+    padding: 60px 20px;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 
+
+}
+
+
+
