@@ -1,0 +1,15 @@
+.item1,.item2,.item3{
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .item1{
+        background-color: cadetblue;
+    }
+}
+@media screen and (min-width:401px) and (max-width: 768px) {
+    .item2{
+        background-color: crimson;
+    }
+}
